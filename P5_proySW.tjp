@@ -47,6 +47,7 @@ account cost "Project Cost" {
   account wFront "Web Front-End"
   account mFront "Mobile Front-end"
   account back "Back-End"
+  account cloud "Cloud Deployment"
 }
 account rev "Payments"
 # The Profit&Loss analysis should be rev - cost accounts.
@@ -69,7 +70,7 @@ resource dev3 "Peter Green" {
   email "kkk@unizar.es"
 }
 
-resource studentDev "David Borrel" {
+resource studentDev "David Borrel Seral" {
   email "871643@unizar.es"
   limits { dailymax 4h }
   rate 75
