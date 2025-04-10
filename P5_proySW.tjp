@@ -69,7 +69,7 @@ resource dev3 "Peter Green" {
   email "kkk@unizar.es"
 }
 
-resource studentDev "David Borrel Seral" {
+resource studentDev "David Borrel" {
   email "871643@unizar.es"
   limits { dailymax 4h }
   rate 75
